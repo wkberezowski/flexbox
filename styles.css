@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 100vh;
+  border: 20px solid black;
+  display: flex;
+}
+.child1 {
+  height: 200px;
+  width: 200px;
+  background: blue;
+}
+.child2 {
+  width: 200px;
+  height: 200px;
+  background: red;
+  align-self: center;
+}
+.child3 {
+  width: 200px;
+  height: 200px;
+  background: purple;
+  align-self: flex-end;
+}
